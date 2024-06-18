@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+</head>
+
+<body>
+    <h2>Conversor de comprimento</h2>
+    <div id="opções">
+        <p>De:</p>
+        <select class="medida">
+            <option selected disabled value="">Selecione</option>
+            <option>Metros</option>
+            <option>Centimetros</option>
+            <option>Milimetros</option>
+            <option>Polegadas</option>
+        </select>
+        <p>Para:</p>
+        <select class="medida">
+            <option selected disabled value="">Selecione</option>
+            <option>Metros</option>
+            <option>Centimetros</option>
+            <option>Milimetros</option>
+            <option>Polegadas</option>
+        </select>
+    </div>
+    <div id="valor">
+        <p>Valor:</p>
+        <input type="number">
+        <button onclick="addValor()">Converter</button>
+    </div>
+    <div id="resultado"></div>
+
+    <script src="/js/comprimento.js"></script>
+</body>
+
+</html>
